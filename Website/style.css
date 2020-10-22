@@ -1,0 +1,380 @@
+/*
+
+font-family:cairo \ comfortaa
+color:red \ #21455e
+
+*/
+
+body{
+    margin:0;
+    padding:0
+}
+
+.navbar{
+    width:100%;
+    height:70px;
+    
+}
+
+.navbar p{
+    font-size:40px;
+    font-family:comfortaa;
+    float:left;
+    margin-top:0;
+    padding:15px 0 0 20px;
+    color:#21455e
+    
+}
+
+.navbar ul{
+    list-style-type:none; 
+    float:left;
+    margin-left:45%;
+    width:40%;
+    margin-top:30px
+}
+
+.navbar ul li{
+    display:inline;
+    margin-left:3%;
+    font-family:comfortaa;
+    color:#21455e
+}
+
+.navbar ul li:hover{
+    color:red
+}
+
+.navbar i{
+	position:absolute;
+	left:93%;
+	top:20px;
+	display:none
+}
+
+/*-- responsive --*/
+
+@media(max-width:1024px){
+	.navbar ul{
+		width:43%;
+		margin:32px 0 0 35%
+	}
+}
+
+@media(max-width:800px){
+	.navbar ul{
+		width:55%;
+		margin:32px 0 0 17%
+	}
+}
+
+@media(max-width:600px){
+	.navbar ul{
+		width:100%;
+		height:300px;
+		background-color:white;
+		z-index:2;
+		position:absolute;
+		margin:70px 0 0 0%;
+		display:none
+	}
+	
+	.navbar ul li{
+		display:block;
+		font-size:20px;
+		text-align:center;
+		margin-right:21%;
+		margin-top:22px;
+		border-bottom:solid thin #21455e;
+		padding-bottom:14px
+	}
+	
+	.navbar i{
+		display:block;
+		left:84%
+		}
+}
+
+
+/*-- header --*/
+
+.header{
+    width:100%;
+    height:600px;
+    background-image: url(images/sofa1.jpg);
+    background-size:cover;
+    position:relative
+    
+}
+
+.opacity{
+    width:100%;
+    height:100%;
+    background-color: black;
+    opacity:0.5;
+    
+}
+
+.header p{
+    position:absolute;
+    top:220px;
+    left:21%;
+    color:white;
+    font-family:comfortaa;
+    font-size:50px ;
+    border-bottom:solid red 
+}
+
+/*-- responsive --*/
+
+@media(max-width:1024px){
+	.header p{
+		left:14%
+	}
+}
+
+@media(max-width:800px){
+	.header p{
+		left:5%
+	}
+}
+
+@media(max-width:600px){
+	.header p{
+		width:75%;
+		font-size:75px;
+		left:5%;
+		top:113px
+	}
+}
+
+@media(max-width:365px){
+	.header p{
+		width:75%;
+		font-size:56px;
+		left:7%;
+		top:113px;
+		border:solid thin red;
+		padding:20px
+	}
+}
+
+
+/*-- about --*/
+
+.about{
+    padding:80px 0 ;
+}
+
+.about p{
+    width:45%;
+    font-family:cairo;
+    font-size:20px;
+    float:left;
+    margin-left:5%
+}
+
+.about p span{
+    display:block;
+    font-family: comfortaa;
+    font-size:40px;
+    color:#21455e;
+    border-bottom:solid thin red;
+    text-transform:uppercase;
+    width:33%;
+    margin-bottom:20px 
+}
+
+.about img{
+    width:40%;
+    height:400px;
+     margin-left:6%;
+    box-shadow:10px 0 30px black 
+}
+
+/*-- responsive --*/
+
+@media(max-width:1024px){
+	.about p span{
+		width:46%;
+		margin-bottom:12px
+	}
+	
+	.about img{
+		margin-top:46px
+	}
+}
+
+@media(max-width:800px){
+	.about p{
+		width:90%
+	}
+	
+	.about p span{
+		width:28%
+	}
+	
+	.about img{
+		width:90%;
+		margin-left:5%
+	}
+}
+
+@media(max-width:600px){
+	.about p span{
+		width:40%
+		}
+}
+
+@media(max-width:600px){
+	.about p{
+		width:93%
+	}
+	.about p span{
+		width:61%
+	}
+	
+	.about img{
+		height:260px
+	}
+}
+
+
+/*-- services --*/
+
+
+.services{
+    padding:80px 0;
+    background-image: url(images/bedroom7.jpg);
+    background-size:cover ;
+    position:relative;
+    height:400px;
+}
+
+.services .opacity{
+    width:100%;
+    height:100%;
+    background-color: black;
+    opacity:.7;
+    position: absolute;
+    left:0;
+    top:0
+    
+}
+
+.services span{
+    color:white;
+    font-size:50px;
+    font-family:comfortaa;
+    border-bottom:solid thin red; 
+    position:absolute;
+    left:37%;
+    z-index:1 ;
+    text-transform: uppercase
+    
+    
+}
+
+.services .opacity .item{
+    width:20%;
+    height:300px;
+    color:white;
+    font-family:karla;
+    font-size:15px; 
+    text-align:center;
+    margin-top:300px;
+    margin-left:4%;
+    float:left
+    
+}
+
+.services .opacity .item i{
+    background-color: red;
+    padding:10px;
+}
+
+/*-- responsive --*/
+
+@media(max-width:600px){
+	.services span{
+		font-size:40px;
+		left:10%
+		}
+}
+
+
+/*-- our works --*/
+
+
+.our-works{
+    padding:100px 0
+}
+
+.our-works span{
+     color:#21455e;
+    font-size:50px;
+    font-family:comfortaa;
+    border-bottom:solid thin red; 
+    text-transform: uppercase;
+    margin-left:35%
+}
+
+.our-works img{
+    width:25%;
+    height:250px;
+    margin:3% 0 0 6.5%
+}
+
+
+/*-- contact us --*/
+
+
+.contact-us{
+    padding:100px 0
+}
+
+.contact-us .item{
+    width:25%;
+    height:100px;
+    float:left;
+    box-shadow:0 0 20px black ;
+    margin-left:6%;
+    text-align:center;
+    font-family:karla;
+    padding-top:30px;
+    font-size:20px;
+    border-radius:10px;
+    color:#21455e
+}
+
+.contact-us ul{
+    list-style-type:none;
+    margin-top:200px;
+    margin-left:37%
+}
+
+.contact-us ul li{
+    display:inline;
+    margin-left:4%;
+    color:red
+}
+
+.copyright{
+    width:100%;
+    background-color:black;
+    color:white;
+    padding:10px 0;
+    text-align:center ;
+    font-family:karla 
+    
+}
+
+/*-- responsive --*/
+
+@media(max-width:600px){
+	.contact-us .item{width:90%}
+}
+
+
+
+
